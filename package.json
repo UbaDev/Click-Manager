@@ -1,5 +1,5 @@
 {
-  "name": "Click manager",
+  "name": "clickmanager",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

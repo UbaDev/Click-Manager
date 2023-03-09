@@ -1,13 +1,16 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCGLrHNkbeFlKk6gwueR9SCV3sCrOHXZgM",
-  authDomain: "maple-issue-tracker.firebaseapp.com",
-  projectId: "maple-issue-tracker",
-  storageBucket: "maple-issue-tracker.appspot.com",
-  messagingSenderId: "34137832421",
-  appId: "1:34137832421:web:71ca513a3bd3eef6a34d0c",
+  apiKey: "AIzaSyATx963e-2lJX-3Ln6yBVDrOiPK6BCkD14",
+  authDomain: "click-manager.firebaseapp.com",
+  projectId: "click-manager",
+  storageBucket: "click-manager.appspot.com",
+  messagingSenderId: "82728559577",
+  appId: "1:82728559577:web:149e18f2e57d27aeae2fc8"
 };
 
 // Initialize Firebase
