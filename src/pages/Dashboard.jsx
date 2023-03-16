@@ -79,14 +79,14 @@ export default function Dashboard() {
         <Header>
           <Title>Proyectos</Title>
           <ButtonGroup>
-            <Button
+           <Button
               variant="primary"
               onClick={() => {
                 setIsCreateProjectModelOpen(true);
               }}
             >
               Crear proyecto
-            </Button>
+            </Button> 
             <LogoutButton>
               <Button
                 // variant="primary"

@@ -54,9 +54,7 @@ const renderRemainingOrEstimate = ({ timeRemaining, estimate }) => {
   if (!isNil(timeRemaining)) {
     return <div>{`${timeRemaining}h remaining`}</div>;
   }
-  if (!isNil(estimate)) {
-    return <div>{`${estimate}h estimated`}</div>;
-  }
+
 };
 
 ProjectBoardIssueDetailsTrackingWidget.propTypes = propTypes;

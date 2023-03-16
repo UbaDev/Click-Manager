@@ -26,7 +26,7 @@ const ProjectBoardIssueDetailsAssigneesReporter = ({
 
   return (
     <Fragment>
-      <SectionTitle>Assignees</SectionTitle>
+      <SectionTitle>Lider que asigna</SectionTitle>
       <Select
         isMulti
         variant="empty"
@@ -46,7 +46,7 @@ const ProjectBoardIssueDetailsAssigneesReporter = ({
         }
       />
 
-      <SectionTitle>Reporter</SectionTitle>
+      <SectionTitle>A quien se le asigna</SectionTitle>
       <Select
         variant="empty"
         dropdownWidth={343}

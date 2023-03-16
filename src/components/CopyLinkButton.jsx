@@ -13,9 +13,9 @@ const CopyLinkButton = ({ ...buttonProps }) => {
   };
 
   return (
-    <Button icon="link" onClick={handleLinkCopy} {...buttonProps}>
-      {isLinkCopied ? "Link Copied" : "Copy link"}
-    </Button>
+    <div>
+      
+    </div>
   );
 };
 

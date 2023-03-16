@@ -13,7 +13,7 @@ const propTypes = {
 
 const ProjectBoardIssueDetailsPriority = ({ issue, updateIssue }) => (
   <Fragment>
-    <SectionTitle>Priority</SectionTitle>
+    <SectionTitle>Prioridad</SectionTitle>
     <Select
       variant="empty"
       withClearValue={false}

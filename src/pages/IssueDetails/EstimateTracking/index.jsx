@@ -22,40 +22,7 @@ const propTypes = {
 
 const ProjectBoardIssueDetailsEstimateTracking = ({ issue, updateIssue }) => (
   <Fragment>
-    <SectionTitle>Original Estimate (hours)</SectionTitle>
-    {renderHourInput("estimate", issue, updateIssue)}
 
-    <SectionTitle>Tiempo trabajado</SectionTitle>
-    <Modal
-      testid="modal:tracking"
-      width={400}
-      renderLink={(modal) => (
-        <TrackingLink onClick={modal.open}>
-          <TrackingWidget issue={issue} />
-        </TrackingLink>
-      )}
-      renderContent={(modal) => (
-        <ModalContents>
-          <ModalTitle>Tiempo trabajado</ModalTitle>
-          <TrackingWidget issue={issue} />
-          <Inputs>
-            <InputCont>
-              <InputLabel>Time spent (hours)</InputLabel>
-              {renderHourInput("timeSpent", issue, updateIssue)}
-            </InputCont>
-            <InputCont>
-              <InputLabel>Time remaining (hours)</InputLabel>
-              {renderHourInput("timeRemaining", issue, updateIssue)}
-            </InputCont>
-          </Inputs>
-          <Actions>
-            <Button variant="primary" onClick={modal.close}>
-              Done
-            </Button>
-          </Actions>
-        </ModalContents>
-      )}
-    />
   </Fragment>
 );
 

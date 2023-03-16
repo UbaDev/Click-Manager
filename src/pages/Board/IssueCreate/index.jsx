@@ -93,6 +93,7 @@ const ProjectIssueCreate = ({ project, onCreate, modalClose }) => {
           renderOption={renderUser(project)}
           renderValue={renderUser(project)}
         />
+
         <Form.Field.Select
           isMulti
           name="assignees"
