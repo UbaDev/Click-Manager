@@ -24,37 +24,7 @@ const ProjectBoardIssueDetailsDescription = ({ issue, updateIssue }) => {
 
   return (
     <Fragment>
-      <Title>Descripción</Title>
-      {isEditing ? (
-        <Fragment>
-          <TextEditor
-            placeholder="Describe la asignación"
-            defaultValue={description}
-            onChange={setDescription}
-          />
-          <Actions>
-            <Button variant="primary" onClick={handleUpdate}>
-              Guardar
-            </Button>
-            <Button variant="empty" onClick={() => setEditing(false)}>
-              Cancelar
-            </Button>
-          </Actions>
-        </Fragment>
-      ) : (
-        <Fragment>
-          {isDescriptionEmpty ? (
-            <EmptyLabel onClick={() => setEditing(true)}>
-              Agrega una descripción...
-            </EmptyLabel>
-          ) : (
-            <TextEditedContent
-              content={description}
-              onClick={() => setEditing(true)}
-            />
-          )}
-        </Fragment>
-      )}
+      
     </Fragment>
   );
 };
